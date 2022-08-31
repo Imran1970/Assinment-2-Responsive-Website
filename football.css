@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*--------------------------------------------- 
+-----------------------------------------------bilboard আংশের স্টাইল শুরু------------------------------ 
+-----------------------------------------------------------------------------------------------------*/
+.bilboard {
+    display: flex;
+    width: 1321px;
+    height: 646px;
+    background-color: black;
+    border-radius: 30px;
+    margin: 30px auto;
+
+}
+
+.greating {
+    width: 531px;
+    height: 424px;
+    margin-left: 50px;
+}
+
+
+h1 {
+    color: white;
+    font-size: 60px;
+
+}
+
+p {
+    color: white;
+    font-size: 16px;
+}
+
+
+.button-1 {
+    background-color: red;
+    border-radius: 10px;
+    padding: 20px 50px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+
+.marcelo {
+    position: relative;
+    width: 581px;
+    height: 613px;
+    left: 120px;
+    top: 34px;
+
+}
+
+img {
+    width: 100%;
+}
+
+.fa-greater-than {
+    margin-left: 30px;
+    font-size: medium;
+
+}
+
+
+/*--------------------------------------------- 
+-----------------------------------------------bilboard আংশের স্টাইল শেষ------------------------------ 
+-----------------------------------------------------------------------------------------------------*/
+
+
+
+.blog .blog-banner img {
+    width: 312px;
+    height: 175px;
+}
+
+.blog-ingo {
+    margin-left: 20px;
+}
+
+.transfar {
+    width: 100px;
+    height: 32px;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+
+}
+
+.ingo {
+    font-size: 18px;
+    width: 272px;
+    height: 54px;
+}
+
+.time-icon {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.blog {
+    width: 312px;
+    height: 362px;
+    border: 1px solid gray;
+    border-radius: 12px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.dash-board-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 312px;
+    height: 312px;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+.dash-board {
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: 500px;
+
+}
+
+.dash-board-white {
+    width: 252px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 500px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.father-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+    grid-column-gap: 24px;
+}
+
+
+
+
+
+/* ---------------------------------------------------footer এর স্টাইল শুরু----------------------------------------- */
+
+.footer {
+    position: relative;
+    width: auto;
+    height: 444px;
+    background-color: black;
+    margin-top: 130px;
+}
+
+hr {
+    width: 1400px;
+    margin-top: 50px;
+}
+
+.win {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    margin-top: 70px;
+
+
+
+
+}
+
+
+.contact {
+    margin: 50px 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.add-icon {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 850px;
+    color: white;
+    font-size: 30px;
+
+
+}
+
+
+@media only screen and (max-width:688px) {
+    .bilboard {
+        display: flex;
+        flex-direction: column;
+        width: 334px;
+        height: 472px;
+
+    }
+
+    .dash-board-container {
+        display: grid;
+        background-color: white;
+        margin: 0 auto;
+    }
+
+    .dash-board-white {
+        width: 210px;
+    }
+
+    .dash-board {
+        width: 210px;
+
+    }
+
+    .greating {
+        width: 200px;
+        height: 200px;
+        margin-top: 40px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        color: white;
+        font-size: 10px;
+    }
+
+    .button-1 {
+        background-color: red;
+        border-radius: 10px;
+        padding: 7px 15px;
+        color: white;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    .marcelo {
+        position: absolute;
+        width: 170px;
+        height: 200px;
+        left: 170px;
+        top: 323px;
+    }
+
+    .father-container {
+        display: block;
+        margin-top: 130px;
+        grid-column-gap: 24px;
+    }
+
+    .blog {
+
+        width: 335px;
+        height: 388.69px;
+        border: 1px solid gray;
+        border-radius: 12px;
+        margin: 0 auto;
+
+    }
+
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    hr {
+        width: 400px;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: space-around;
+        margin: 20px 20px;
+    }
+
+    .add-icon {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 190px;
+        color: white;
+        font-size: 20px;
+
+
+    }
+
+}
+
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 90px;
+        margin-left: 60px;
+
+    }
+
+    .bilboard {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 734px;
+        height: 398px;
+
+
+    }
+
+
+    .dash-board-container {
+        display: inline;
+        background-color: white;
+        margin: 0 140px;
+    }
+
+    .dash-board-white {
+        width: 210px;
+    }
+
+    .dash-board {
+        width: 210px;
+
+    }
+
+    .button-1 {
+        background-color: red;
+        border-radius: 10px;
+        padding: 10px 30px;
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+
+    }
+
+
+    .greating {
+        position: absolute;
+        width: 316px;
+        height: 276px;
+        left: 126px;
+        top: 11px;
+    }
+
+
+
+    .marcelo {
+        position: absolute;
+        width: 323px;
+        height: 340px;
+        left: 495px;
+        top: 88px;
+
+
+
+    }
+
+    .father-container {
+        display: inline-block;
+        margin-top: 130px;
+        grid-column-gap: 24px;
+        margin: 0 auto;
+
+    }
+
+    h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    hr {
+        width: 600px;
+    }
+
+    .contact {
+
+        margin: 50px 100px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .add-icon {
+        display: flex;
+        justify-content: space-between;
+        margin: 40px 380px;
+        color: white;
+        font-size: 25px;
+
+
+    }
+
+
+
+}
